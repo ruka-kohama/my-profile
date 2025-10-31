@@ -1,0 +1,105 @@
+body {
+  background-color:#F5EFE6;
+  color: #003366;
+  font-family: "Nunito", sans-serif;
+  font-size:16px;
+  line-height:1.5;
+}
+h1,h2,h3{
+  font-family: "Crimson Text", serif;
+  line-height:1.3;
+}
+
+h1 {
+  color: #001a33;
+  font-weight: 700;
+  letter-spacing:7px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+h2{
+  color:#00331a;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+a {
+  color: #734d26;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+a{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.container {
+  width: 770px;
+  margin: 50px auto;
+}
+
+.card-white{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle{
+  border-radius: 70%;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.5);
+}
+.btn-brown{
+  background-color: #734d26;
+  color: white;
+  padding: 13px 20px;
+  border-radius: 4px;
+}
+.btn-brown:hover{
+  background-color: black;
+  color: whitesmoke;
+}
+.list-inline{
+  list-style: none;
+  padding-left:8px;
+}
+.list-inline li {
+  display: inline;
+  padding: 5px;
+}
+.list-inline i {
+  font-size: 45px;
+  color: rgb(200, 200, 200);
+}
+.list-inline i:hover{
+  color: black;
+}
+#introduction p {
+  margin-bottom: 50px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
